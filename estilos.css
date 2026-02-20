@@ -1,0 +1,53 @@
+/* Fuente para todo el documento */
+html {
+    font-family: "Verdana", sans-serif;
+}
+
+/* Imagen de la banda */
+#banda {
+    width: 600px; /* Establece el ancho de la imagen */
+}
+
+/* Bordes de la tabla */
+table, th, td {
+    border: 1px solid black; /* Borde negro de 1px */
+    border-collapse: collapse; /* Evita bordes dobles */
+}
+
+/* Espacio interno de las celdas */
+th, td {
+    padding: 10px; /* Espacio entre el texto y el borde */
+}
+th {
+    color: white;  /* El texto de las cabeceras será blanco */
+    font-size: 12px;
+	background-color: #666;
+}
+
+.pie{ /*nombra solo al pie */
+	background-color: #ccc ;
+}
+/*tamaño del texto*/
+h1{
+    font-size:30px;
+    color: #333;
+
+}
+h2{
+    font-size: 16px;
+    color:#666;
+}
+#discografias{ 
+    p{
+        margin: 0px; /* Espacio vertical alrededor del párrafo */
+        padding-left: 40px;
+        font-size: 14px;
+        color:#000;
+    }
+}
+#enlace a{
+         font-size: 12px;
+        color:blue
+    }
+    
+ 
